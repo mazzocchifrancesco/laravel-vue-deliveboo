@@ -1,15 +1,17 @@
 
 <h3 align="center">Deliveboo</h3>
 <div align="center">
-<div style="background-color:orangered; display:flex; justify-content:center; align-items:center; width:120px; aspect-ratio:1; border-radius:50%">
+
 <img src="/backend/public/img/delivebooOrange.png" alt="Logo" width="80" height="80">
-</div>
+
 <p style="margin-top:1rem;">A delivery web app</p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <img src="/backend/public/img/readme/example_1.png" alt="main_example">
+<br>
+<br>
 
 This is a web app that allows a user to <b>order food</b> and a restaurateur to <b>manage</b> their business, <b>built with:</b>
 
@@ -46,75 +48,100 @@ This app currently allows you to:
 ### Installation
 
 <details><summary>Instructions</summary>
+
 1. `Clone` the repo
+
    ```sh
    git clone https://github.com/mazzocchifrancesco/laravel-vue-deliveboo.git
    ```
+   
 2. `create` a <b>.env</b> file in `/backend` using the <b>.env.example</b> file as a template:
-   * setup the database
-   * uncomment the entry "APP_FRONTEND_URL"
-   * <a href="https://api-docs.mailtrap.io/">setup the mail provider</a>
-<br>
-3. `Move` to <b>backend</b> folder
-<br>
+ * setup the database
+ * uncomment the entry `APP_FRONTEND_URL`
+ * <a href="https://api-docs.mailtrap.io/">setup the mail provider</a>
 
+3. Move to <b>backend</b> folder
+<br>
 4. Install `NPM` packages
+
    ```sh
    npm install
    ```
+   
 5. Install `Composer` dependencies
+
    ```sh
    composer update
    ```
+
 6. Generate the `APP_KEY`
+
    ```sh
    php artisan key:generate
    ```
+   
 7. Create the `tables` and launch exemple `seeding`
+
    ```sh
    php artisan migrate:fresh --seed
    ```
+   
 8. Start the `development server`
+
    ```sh
    npm run dev
    ```
+   
 9. Start the `PHP's built-in development server`
+
    ```sh
    php artisan serve
    ```
-9. move to <b>frontend</b> folder
+
+10. move to <b>frontend</b> folder
+
 <br>
-9. Install `NPM` packages
+
+11. Install `NPM` packages
+
    ```sh
    npm install
    ```
-9. Start the `development server`
+
+12. Start the `development server`
+
    ```sh
    npm run dev
    ```
+   
 </details>
 
-### Gallery
-<div style="display: grid; grid-template-columns: repeat(2, 1fr);
-        gap: 20px;">
-<div style="width: 100%; height: auto;">
+## Gallery
+
 Selection by category
+
 <img src="/backend/public/img/readme/example_2.png" alt="main_example">
-</div>
-<div style="width: 100%; height: auto;">
+<br>
+<br>
+
 Food list
+
 <img src="/backend/public/img/readme/example_3.png" alt="main_example">
-</div>
-<div style="width: 100%; height: auto;">
+<br>
+<br>
+
 Checkout page
+
 <img src="/backend/public/img/readme/example_6.png" alt="main_example">
-</div>
-<div style="width: 100%; height: auto;">
+<br>
+<br>
+
 Restaurateur Dashboard
+
 <img src="/backend/public/img/readme/example_4.png" alt="main_example">
-</div>
-<div style="width: 100%; height: auto;">
+<br>
+<br>
+
 Order statistics
+
 <img src="/backend/public/img/readme/example_5.png" alt="main_example">
-</div>
-</div>
